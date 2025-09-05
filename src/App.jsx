@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/header/Header";
+import About from "./components/about/About";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Education from "./components/education/Education";
@@ -10,10 +11,11 @@ const App = () => {
   return (
     <>
       <Header />
+      <Nav />
+      <About />
       <Education />
       <Experience />
       <Skills />
-      <Nav />
       <Footer />
     </>
   );
