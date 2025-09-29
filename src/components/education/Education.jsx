@@ -3,7 +3,7 @@ import "./education.css";
 
 const Education = () => {
   return (
-    <div>
+    <div className="edu">
       <h2>Education</h2>
       <p>
         <strong>Hunter College, New York, NY</strong>

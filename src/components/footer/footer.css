@@ -2,6 +2,8 @@
   position: fixed;
   left: 0;
   bottom: 0;
+  border: 15px green;
+  padding: 20px;
   width: 100%;
   background-color: blue;
   color: white;
