@@ -2,7 +2,7 @@ import React from "react";
 import "./topnav.css";
 
 const Topnav = () => {
-  return <div></div>;
+  return <div className="topnav"></div>;
 };
 
 export default Topnav;
