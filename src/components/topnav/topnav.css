@@ -1,8 +1,13 @@
+body {
+  margin: 0;
+}
+
 .topnav {
-  left: 0;
+  position: sticky;
   top: 0;
   width: 100%;
-  border: 15px;
-  padding: 20px;
-  background-color: darkgoldenrod;
+  padding: 30px;
+  background-color: darkblue;
+  text-align: left;
+  z-index: 1000;
 }
