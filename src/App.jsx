@@ -1,7 +1,7 @@
 import React from "react";
+import Topnav from "./components/topnav/Topnav";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
-import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
@@ -11,8 +11,8 @@ import Contact from "./components/contact/Contact";
 const App = () => {
   return (
     <>
+      <Topnav />
       <Header />
-      <Nav />
       <About />
       <Education />
       <Experience />
