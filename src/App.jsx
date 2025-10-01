@@ -1,8 +1,8 @@
 import React from "react";
 import Topnav from "./components/topnav/Topnav";
 import Header from "./components/header/Header";
-import About from "./components/about/About";
 import Education from "./components/education/Education";
+import Projects from "./components/projects/Projects";
 import Experience from "./components/experience/Experience";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
@@ -12,8 +12,8 @@ const App = () => {
     <>
       <Topnav />
       <Header />
-      <About />
       <Education />
+      <Projects />
       <Experience />
       <Skills />
       <Contact />
