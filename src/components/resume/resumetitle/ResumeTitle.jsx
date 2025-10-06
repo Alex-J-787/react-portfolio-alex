@@ -1,7 +1,7 @@
 import React from "react";
-import "./header.css";
+import "./resumetitle.css";
 
-const Header = () => {
+const resumeTitle = () => {
   return (
     <div className="header">
       <h1>Resume</h1>
@@ -9,4 +9,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default resumeTitle;
