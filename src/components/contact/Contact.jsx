@@ -1,13 +1,15 @@
 import React from "react";
 import "./contact.css";
+import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
     <div className="contact">
-      <h2 style={{ marginBottom: "0px" }}>Contact</h2>
-      <p className="smallfont">
-        Email: ahd.jacobson@gmail.com<br></br>
-        Phone: 347-831-1698
+      <h3 style={{ marginBottom: "0px" }}>Contact</h3>
+      <p className="largefont">
+        <a href="ahd.jacobson@gmail.com">
+          <SiGmail />{" "}
+        </a>
       </p>
     </div>
   );

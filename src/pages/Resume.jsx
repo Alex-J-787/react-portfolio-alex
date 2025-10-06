@@ -1,6 +1,6 @@
 import React from "react";
 import Topnav from "../components/topnav/Topnav";
-import ResumePageTitle from "../components/resume/resumePageTitle/ResumePageTitle";
+import ResumePageTitle from "../components/resume/title/ResumePageTitle";
 import Education from "../components/resume/education/Education";
 import Projects from "../components/resume/projects/Projects";
 import Experience from "../components/resume/experience/Experience";
