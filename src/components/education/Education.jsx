@@ -4,15 +4,18 @@ import "./education.css";
 const Education = () => {
   return (
     <div className="edu">
-      <h2>Education</h2>
+      <h2 className="center">Education</h2>
       <p>
         <h3>Graduate</h3>
         <strong>Hunter College, New York, NY</strong>
         <br></br>
-        <em>MS in Geoinformatics (Expected Graduation: December 2025)</em>
-        <br></br>Relevant Coursework: Advanced Geoinformatics, Geospatial
-        Database Management, Data Analysis & Visualization with R, Web GIS,
-        Geocomputation, Quantitative Methods in Geography
+        MS in Geoinformatics (Expected Graduation: December 2025)
+        <br></br>
+        <span className="smallfont">
+          Relevant Coursework: Advanced Geoinformatics, Geospatial Database
+          Management, Data Analysis & Visualization with R, Web GIS,
+          Geocomputation, Quantitative Methods in Geography{" "}
+        </span>
       </p>
       <p>
         <h3>Undergraduate</h3>
