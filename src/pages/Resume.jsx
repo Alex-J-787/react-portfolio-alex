@@ -1,6 +1,6 @@
 import React from "react";
 import Topnav from "../components/topnav/Topnav";
-import ResumeTitle from "../components/resume/resumetitle/ResumeTitle";
+import ResumePageTitle from "../components/resume/resumePageTitle/ResumePageTitle";
 import Education from "../components/resume/education/Education";
 import Projects from "../components/resume/projects/Projects";
 import Experience from "../components/resume/experience/Experience";
@@ -15,7 +15,7 @@ const Resume = () => {
         <Topnav />
       </div>
       <div className="header-container">
-        <ResumeTitle />
+        <ResumePageTitle />
       </div>
       <div className="container">
         <Divider />

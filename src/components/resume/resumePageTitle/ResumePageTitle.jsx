@@ -1,12 +1,12 @@
 import React from "react";
 import "./resumetitle.css";
 
-const resumeTitle = () => {
+const ResumePageTitle = () => {
   return (
-    <div className="header">
+    <div className="resumeTitle">
       <h1>Resume</h1>
     </div>
   );
 };
 
-export default resumeTitle;
+export default ResumePageTitle;
