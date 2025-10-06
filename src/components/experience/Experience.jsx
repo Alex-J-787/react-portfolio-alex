@@ -1,9 +1,8 @@
 import React from "react";
-import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="body">
       <h2>Experience</h2>
       <h3>
         Web Designer | ICIT Dept., Hunter College, New York, NY | April 2024 to

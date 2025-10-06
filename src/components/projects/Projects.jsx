@@ -1,10 +1,9 @@
 import React from "react";
-import "./projects.css";
 
 const Projects = () => {
   return (
-    <div className="projects">
-      <h3>Academic Projects</h3>
+    <div className="body">
+      <h2>Academic Projects</h2>
       <ul>
         <li>
           NYC Subway System Accessibility Analysis – Mapped service areas using

@@ -1,10 +1,14 @@
 import React from "react";
-import "./footer.css";
+import Contact from "../contact/Contact";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <footer></footer>
+      <footer>
+        <div>
+          <Contact />
+        </div>
+      </footer>
     </div>
   );
 };

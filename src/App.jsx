@@ -5,18 +5,31 @@ import Education from "./components/education/Education";
 import Projects from "./components/projects/Projects";
 import Experience from "./components/experience/Experience";
 import Skills from "./components/skills/Skills";
-import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Divider from "./components/divider/Divider";
 
 const App = () => {
   return (
     <>
-      <Topnav />
-      <Header />
-      <Education />
-      <Projects />
-      <Experience />
-      <Skills />
-      <Contact />
+      <div className="topnav">
+        <Topnav />
+      </div>
+      <div className="header-container">
+        <Header />
+      </div>
+      <div className="container">
+        <Divider />
+        <Education />
+        <Divider />
+        <Projects />
+        <Divider />
+        <Experience />
+        <Divider />
+        <Skills />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </>
   );
 };

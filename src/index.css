@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+}
+.container {
   color: #000;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -7,13 +10,37 @@ body {
   font-style: normal;
   cursor: auto;
   text-align: left;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.header-container {
+  color: #000;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  font-style: normal;
+  cursor: auto;
 }
 
 .smallfont {
   font-size: smaller;
   line-height: 22px;
+  margin-top: 0px;
 }
 
 .center {
   text-align: center;
+}
+
+.topnav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: lightgray;
+  overflow: hidden;
+  text-align: left;
+  z-index: 1000;
 }
