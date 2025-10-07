@@ -84,6 +84,10 @@ body {
   color: lightgrey;
 }
 
+.footer-text:hover {
+  color: lightgrey;
+}
+
 .link-image {
   color: slategray;
   margin: 0px;
