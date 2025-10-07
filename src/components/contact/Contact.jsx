@@ -7,8 +7,8 @@ const Contact = () => {
     <div className="contact">
       <h3 style={{ marginBottom: "0px" }}>Contact</h3>
       <p className="largefont">
-        <a href="ahd.jacobson@gmail.com">
-          <SiGmail />{" "}
+        <a href="mailto:ahd.jacobson@gmail.com">
+          <SiGmail />
         </a>
       </p>
     </div>

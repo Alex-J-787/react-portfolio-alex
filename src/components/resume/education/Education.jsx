@@ -9,7 +9,7 @@ const Education = () => {
         <h3>Graduate</h3>
         <strong>Hunter College, New York, NY</strong>
         <br></br>
-        MS in Geoinformatics (Expected Graduation: December 2025)
+        <em>MS in Geoinformatics (Expected Graduation: January 2025)</em>
         <br></br>
         <span className="smallfont">
           Relevant Coursework: Advanced Geoinformatics, Geospatial Database
