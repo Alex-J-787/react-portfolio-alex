@@ -4,12 +4,18 @@ const Topnav = () => {
   return (
     <nav>
       <div>
-        <a className="topnav-text">Home</a>
-        <a className="topnav-text">About</a>
+        <a href="home" className="topnav-text">
+          Home
+        </a>
+        <a href="about" className="topnav-text">
+          About
+        </a>
         <a href="resume" className="topnav-text">
           Resume
         </a>
-        <a className="topnav-text">Projects</a>
+        <a href="projects" className="topnav-text">
+          Projects
+        </a>
       </div>
     </nav>
   );
