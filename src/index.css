@@ -44,8 +44,29 @@ body {
   top: 0;
   width: 100%;
   padding: 20px;
-  background-color: lightgray;
+  background-color: rgb(216, 228, 216);
   overflow: hidden;
-  text-align: left;
   z-index: 1000;
+}
+
+.topnav-resume {
+  text-align: left;
+  text-indent: 10%;
+  font-size: x-large;
+  font-family: "Arial";
+  color: slategrey;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.topnav-resume:hover {
+  color: black;
+}
+
+.link-image {
+  color: slategray;
+}
+
+.link-image:hover {
+  color: black;
 }
