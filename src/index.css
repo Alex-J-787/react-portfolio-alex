@@ -9,7 +9,6 @@ body {
   font-weight: 400;
   font-style: normal;
   cursor: auto;
-  text-align: left;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -43,24 +42,31 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: rgb(216, 228, 216);
   overflow: hidden;
   z-index: 1000;
+  text-align: center;
 }
 
-.topnav-resume {
-  text-align: left;
-  text-indent: 10%;
+.footer {
+  position: sticky;
+}
+
+.topnav-text {
+  display: inline-block;
   font-size: x-large;
-  font-family: "Arial";
-  color: slategrey;
+  font-family: "Tahoma";
+  color: black;
   font-weight: bold;
   text-decoration: none;
+  padding: 5px;
+  margin: 0 8px;
+  background-color: white;
 }
 
-.topnav-resume:hover {
-  color: black;
+.topnav-text:hover {
+  color: lightgrey;
 }
 
 .link-image {
