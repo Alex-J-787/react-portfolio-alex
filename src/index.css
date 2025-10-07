@@ -52,6 +52,12 @@ body {
 
 .footer {
   position: sticky;
+  width: 100%;
+  background-color: rgb(216, 228, 216);
+  overflow: hidden;
+  z-index: 1000;
+  text-align: center;
+  padding: 0;
 }
 
 .topnav-text {
@@ -66,12 +72,22 @@ body {
   background-color: white;
 }
 
+.footer-text {
+  display: inline-block;
+  font-family: "Tahoma";
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .topnav-text:hover {
   color: lightgrey;
 }
 
 .link-image {
   color: slategray;
+  margin: 0px;
+  font-size: xx-large;
 }
 
 .link-image:hover {
