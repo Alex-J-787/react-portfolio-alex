@@ -14,6 +14,9 @@ const Resume = () => {
       <div className="topnav">
         <Topnav />
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="header-container">
         <ResumePageTitle />
       </div>
