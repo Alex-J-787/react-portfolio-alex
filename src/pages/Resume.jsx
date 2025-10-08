@@ -28,6 +28,9 @@ const Resume = () => {
         <Skills />
       </div>
       <div>
+        <br></br>
+        <br></br>
+        <br></br>
         <Footer />
       </div>
     </>
