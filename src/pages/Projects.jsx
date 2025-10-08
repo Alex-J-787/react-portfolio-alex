@@ -8,6 +8,13 @@ const Projects = () => {
       <div className="topnav">
         <Topnav />
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div></div>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="footer">
         <Footer />
       </div>

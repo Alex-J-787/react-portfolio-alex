@@ -46,6 +46,7 @@ body {
   overflow: hidden;
   padding-bottom: 10px;
   padding-top: 10px;
+  border-radius: 10px;
   z-index: 1000;
   text-align: center;
 }
@@ -68,23 +69,30 @@ body {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  margin: 0 100px;
+  padding: 6px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 4px;
 }
 
 .footer-text {
   display: inline-block;
   font-size: large;
   font-family: "Tahoma";
-  color: rgb(119, 120, 120);
+  color: black;
+  background-color: white;
+  padding: 4px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-weight: bold;
 }
 
 .topnav-text:hover {
-  color: lightgrey;
+  color: darkslategrey;
 }
 
 .footer-text:hover {
-  color: lightgrey;
+  color: darkslategrey;
 }
 
 .link-image {
