@@ -68,12 +68,12 @@ body {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  background-color: rgb(203, 212, 203);
+  background-color: rgb(178, 184, 178);
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
-  margin: 0 0px;
+  margin: 0 10px;
 }
 
 .footer-text {
