@@ -76,17 +76,6 @@ body {
   margin: 0 0px;
 }
 
-.topnav-divider {
-  display: inline-block;
-  font-size: x-large;
-  font-family: "Tahoma";
-  color: black;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: rgb(203, 212, 203);
-  text-decoration: none;
-}
-
 .footer-text {
   display: inline-block;
   font-size: large;
