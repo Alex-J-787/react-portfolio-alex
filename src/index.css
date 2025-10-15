@@ -65,7 +65,7 @@ body {
   display: inline-block;
   font-size: x-large;
   font-family: "Tahoma";
-  color: black;
+  color: rgb(243, 240, 240);
   font-weight: bold;
   text-decoration: none;
   background-color: rgb(178, 184, 178);
@@ -90,7 +90,7 @@ body {
 }
 
 .topnav-text:hover {
-  color: darkslategrey;
+  color: black;
 }
 
 .footer-text:hover {
