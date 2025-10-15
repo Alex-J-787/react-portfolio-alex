@@ -74,6 +74,7 @@ body {
   padding-bottom: 5px;
   padding-top: 5px;
   margin: 0 10px;
+  text-transform: uppercase;
 }
 
 .footer-text {
