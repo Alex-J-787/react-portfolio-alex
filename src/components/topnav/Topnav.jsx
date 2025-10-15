@@ -8,15 +8,15 @@ const Topnav = () => {
         <NavLink to="/home" className="topnav-text">
           Home
         </NavLink>
-        <span>|</span>
+        <span className="topnav-divider">|</span>
         <NavLink to="/about" className="topnav-text">
           About
         </NavLink>
-        <span>|</span>
+        <span className="topnav-divider">|</span>
         <NavLink to="/resume" className="topnav-text">
           Resume
         </NavLink>
-        <span>|</span>
+        <span className="topnav-divider">|</span>
         <NavLink to="/projects" className="topnav-text">
           Projects
         </NavLink>
