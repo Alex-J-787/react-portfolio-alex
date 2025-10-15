@@ -69,10 +69,11 @@ body {
   font-weight: bold;
   text-decoration: none;
   background-color: rgb(203, 212, 203);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 5px;
-  margin: 0 10px;
+  padding-top: 5px;
+  margin: 0 0px;
 }
 
 .topnav-divider {
@@ -80,9 +81,10 @@ body {
   font-size: x-large;
   font-family: "Tahoma";
   color: black;
-  font-weight: bold;
-  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: rgb(203, 212, 203);
+  text-decoration: none;
 }
 
 .footer-text {
