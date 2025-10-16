@@ -114,8 +114,7 @@ body {
 }
 
 .square_img {
-  width: 40%;
-  max-width: 600px;
+  width: 30rem;
   height: auto;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
