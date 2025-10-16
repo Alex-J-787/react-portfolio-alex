@@ -1,7 +1,7 @@
 import React from "react";
 import Topnav from "../components/topnav/Topnav";
 import Footer from "../components/footer/Footer";
-import about from "../components/about/about";
+import AboutMe from "../components/about/AboutMe";
 
 const About = () => {
   return (
@@ -12,7 +12,9 @@ const About = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div></div>
+      <div>
+        <AboutMe />
+      </div>
       <br></br>
       <br></br>
       <br></br>
