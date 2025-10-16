@@ -112,3 +112,7 @@ body {
 .link-image:hover {
   color: black;
 }
+
+.square_img {
+  width: 30%;
+}
