@@ -13,13 +13,15 @@ const About = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div className="header-container">
-        <AboutMe />
-      </div>
       <br></br>
       <span className="container">
         <img className="square_img" src={ProfessionalHeadshot}></img>
       </span>
+      <div className="header-container">
+        <AboutMe />
+      </div>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <div className="footer">
