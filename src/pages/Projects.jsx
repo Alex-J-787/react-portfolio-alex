@@ -11,7 +11,14 @@ const Projects = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div></div>
+      <div>
+        <iframe
+          width="60%"
+          height="500"
+          frameborder="0"
+          src="https://observablehq.com/embed/48974462c7a5a01f?cell=*"
+        ></iframe>
+      </div>
       <br></br>
       <br></br>
       <br></br>
