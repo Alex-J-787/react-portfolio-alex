@@ -1,7 +1,7 @@
 import React from "react";
 
 const AboutMe = () => {
-  return <div>About Me</div>;
+  return <div className="container">About Me</div>;
 };
 
 export default AboutMe;
