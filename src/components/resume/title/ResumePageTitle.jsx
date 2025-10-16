@@ -2,7 +2,7 @@ import React from "react";
 
 const ResumePageTitle = () => {
   return (
-    <div className="header">
+    <div>
       <h1>Resume</h1>
     </div>
   );
