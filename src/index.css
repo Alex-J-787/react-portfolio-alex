@@ -115,4 +115,6 @@ body {
 
 .square_img {
   width: 30%;
+  max-width: 250px;
+  display: flex;
 }

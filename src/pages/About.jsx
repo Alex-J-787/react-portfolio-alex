@@ -17,7 +17,9 @@ const About = () => {
         <AboutMe />
       </div>
       <br></br>
-      <img src={ProfessionalHeadshot}></img>
+      <span className="container">
+        <img className="square_img" src={ProfessionalHeadshot}></img>
+      </span>
       <br></br>
       <br></br>
       <div className="footer">
