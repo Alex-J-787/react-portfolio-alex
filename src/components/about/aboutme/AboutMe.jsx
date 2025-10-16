@@ -2,7 +2,11 @@ import React from "react";
 import "./aboutme.css";
 
 const AboutMe = () => {
-  return <div className="container">About Me</div>;
+  return (
+    <div className="container">
+      <h1>About Me</h1>
+    </div>
+  );
 };
 
 export default AboutMe;
