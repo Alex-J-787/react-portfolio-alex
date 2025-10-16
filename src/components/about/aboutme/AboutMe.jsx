@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="container">
+    <div className="header-container">
       <h1>About Me</h1>
     </div>
   );

@@ -11,6 +11,9 @@ body {
   cursor: auto;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: block;
 }
 
 .header-container {
@@ -19,6 +22,9 @@ body {
   font-size: 20px;
   line-height: 32px;
   font-weight: 400;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-style: normal;
   cursor: auto;
 }
