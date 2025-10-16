@@ -2,6 +2,7 @@ import React from "react";
 import Topnav from "../components/topnav/Topnav";
 import Footer from "../components/footer/Footer";
 import AboutMe from "../components/about/aboutme/AboutMe";
+import ProfessionalHeadshot from "../assets/ProfessionalHeadshot.jpeg";
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
         <AboutMe />
       </div>
       <br></br>
+      <img src={ProfessionalHeadshot}></img>
       <br></br>
       <br></br>
       <div className="footer">
