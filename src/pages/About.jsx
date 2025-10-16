@@ -1,6 +1,7 @@
 import React from "react";
 import Topnav from "../components/topnav/Topnav";
 import Footer from "../components/footer/Footer";
+import about from "../components/about/about";
 
 const About = () => {
   return (
