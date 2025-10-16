@@ -1,9 +1,8 @@
 import React from "react";
-import "./resumetitle.css";
 
 const ResumePageTitle = () => {
   return (
-    <div className="resumeTitle">
+    <div className="header-container">
       <h1>Resume</h1>
     </div>
   );
