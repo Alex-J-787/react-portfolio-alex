@@ -11,7 +11,7 @@ const Projects = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div>
+      <div className="container">
         <iframe
           width="60%"
           height="800"
