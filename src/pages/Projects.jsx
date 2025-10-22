@@ -1,6 +1,7 @@
 import React from "react";
 import Topnav from "../components/topnav/Topnav";
 import Footer from "../components/footer/Footer";
+import NeighborhoodMap from "../components/projects/NeighborhoodMap";
 
 const Projects = () => {
   return (
@@ -11,7 +12,9 @@ const Projects = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div></div>
+      <div>
+        <NeighborhoodMap />
+      </div>
       <br></br>
       <br></br>
       <br></br>
