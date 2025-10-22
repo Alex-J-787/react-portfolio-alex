@@ -2,6 +2,7 @@ import React from "react";
 import Topnav from "../components/topnav/Topnav";
 import Footer from "../components/footer/Footer";
 import NeighborhoodMap from "../components/projects/NeighborhoodMap";
+import ProjectsPageTitle from "../components/projects/title/ResumePageTitle";
 
 const Projects = () => {
   return (
@@ -12,6 +13,9 @@ const Projects = () => {
       <br></br>
       <br></br>
       <br></br>
+      <div className="header-container">
+        <ProjectsPageTitle />
+      </div>
       <div>
         <NeighborhoodMap />
       </div>
