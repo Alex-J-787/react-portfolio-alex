@@ -14,9 +14,9 @@ const Projects = () => {
       <div>
         <iframe
           width="60%"
-          height="500"
+          height="800"
           frameborder="0"
-          src="https://observablehq.com/embed/48974462c7a5a01f?cell=*"
+          src="https://observablehq.com/embed/892870edc930cde8@1348?cell=*"
         ></iframe>
       </div>
       <br></br>
