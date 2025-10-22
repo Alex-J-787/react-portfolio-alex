@@ -80,19 +80,16 @@ body {
   padding-bottom: 0.3rem;
   padding-top: 0.3rem;
   margin: 0 0.5rem;
-  text-transform: uppercase;
-  border-color: rgb(137, 141, 137);
-  border-width: 0.2rem;
-  border-style: solid;
 }
 
 .footer-text {
   display: inline-block;
   font-size: large;
   font-family: "Tahoma";
-  color: black;
-  text-decoration: none;
+  color: darkgrey;
   font-weight: bold;
+  text-decoration: none;
+  margin: 0 0.5rem;
 }
 
 .topnav-text:hover {
@@ -100,7 +97,7 @@ body {
 }
 
 .footer-text:hover {
-  color: darkslategrey;
+  color: black;
 }
 
 .link-image {
