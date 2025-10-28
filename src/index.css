@@ -48,7 +48,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(216, 228, 216);
+  background-color: rgb(171, 181, 190);
   overflow: hidden;
   padding-bottom: 0.75rem;
   padding-top: 0.75rem;
@@ -60,7 +60,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgb(216, 228, 216);
+  background-color: rgb(171, 181, 190);
   overflow: hidden;
   z-index: 1000;
   padding: 0;
@@ -71,7 +71,7 @@ body {
   display: inline-block;
   font-size: x-large;
   font-family: "Tahoma";
-  color: darkblue;
+  color: black;
   font-weight: bold;
   text-decoration: none;
   padding-left: 0.5rem;
@@ -85,7 +85,8 @@ body {
   display: inline-block;
   font-size: smaller;
   font-family: "Tahoma";
-  color: darkblue;
+  color: black;
+  font-weight: bold;
   text-decoration: none;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
@@ -98,7 +99,8 @@ body {
   display: inline-block;
   font-size: smaller;
   font-family: "Tahoma";
-  color: darkblue;
+  color: black;
+  font-weight: bold;
   text-decoration: none;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
@@ -108,21 +110,11 @@ body {
 }
 
 .topnav-text:hover {
-  color: black;
+  color: rgb(126, 131, 142);
 }
 
 .footer_link:hover {
-  color: rgb(1, 51, 1);
-}
-
-.link-image {
-  color: slategray;
-  margin: 0rem;
-  font-size: xx-large;
-}
-
-.link-image:hover {
-  color: black;
+  color: rgb(126, 131, 142);
 }
 
 .square_img {
