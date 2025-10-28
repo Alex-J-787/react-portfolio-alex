@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="header-container">
         <ProjectsPageTitle />
       </div>
-      <div>
+      <div className="container">
         <NeighborhoodMap />
       </div>
       <br></br>
