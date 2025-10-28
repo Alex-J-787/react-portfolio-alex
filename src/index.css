@@ -84,7 +84,7 @@ body {
 
 .footer-text {
   display: inline-block;
-  font-size: medium;
+  font-size: smaller;
   font-family: "Tahoma";
   color: darkgreen;
   font-weight: none;
