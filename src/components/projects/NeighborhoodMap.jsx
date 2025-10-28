@@ -12,9 +12,6 @@ const NeighborhoodMap = () => {
           src="https://observablehq.com/embed/892870edc930cde8@1348?cell=*"
         ></iframe>
       </div>
-      <div className="flex-text">
-        <p> Text test text test</p>
-      </div>
     </div>
   );
 };
