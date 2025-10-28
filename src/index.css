@@ -83,29 +83,30 @@ body {
   margin: 0 0.5rem;
 }
 
-.footer-text {
+.footer-left {
   font-size: smaller;
   font-family: "Tahoma";
+  font-weight: bold;
   color: black;
   text-decoration: none;
   margin: 0 0.5rem;
   padding-left: 6rem;
 }
 
-.footer_link {
+.footer-right {
   font-size: smaller;
   font-family: "Tahoma";
   color: black;
   text-decoration: none;
   margin: 0 0.5rem;
-  padding-right: 3rem;
+  padding-right: 6rem;
 }
 
 .topnav-text:hover {
   text-decoration: underline;
 }
 
-.footer_link:hover {
+.footer-right:hover {
   text-decoration: underline;
 }
 
