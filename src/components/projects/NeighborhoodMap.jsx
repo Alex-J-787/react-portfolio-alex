@@ -3,17 +3,16 @@ import "./neighborhoodMap.css";
 
 const NeighborhoodMap = () => {
   return (
-    <div className="map-text-container">
+    <div>
       <div>
         <iframe
-          width="800"
+          width="100%"
           height="800"
           frameborder="0"
           src="https://observablehq.com/embed/892870edc930cde8@1348?cell=*"
-          className="container"
         ></iframe>
       </div>
-      <div className="container">
+      <div className="flex-text">
         <p> Text test text test</p>
       </div>
     </div>
