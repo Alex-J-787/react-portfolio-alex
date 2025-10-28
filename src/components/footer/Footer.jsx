@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <span className="footer-left">
-        <p>Website by Alexander Jacobson</p>{" "}
+        <p>Website Designed by Alexander Jacobson</p>{" "}
       </span>
       <span>
         <a href="mailto:ahd.jacobson@gmail.com" className="footer-right">
