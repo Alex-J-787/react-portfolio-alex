@@ -6,6 +6,7 @@ const NeighborhoodMap = () => {
     <div>
       <div>
         <iframe
+          title="NYC Neighborhood Map"
           width="100%"
           height="800"
           frameborder="0"
