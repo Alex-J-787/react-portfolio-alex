@@ -86,17 +86,33 @@ body {
   display: inline-block;
   font-size: smaller;
   font-family: "Tahoma";
-  color: darkgreen;
-  font-weight: none;
+  color: darkblue;
   text-decoration: none;
-  margin-left: 8%;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  margin: 0 0.5rem;
+}
+
+.footer_link {
+  display: inline-block;
+  font-size: smaller;
+  font-family: "Tahoma";
+  color: darkblue;
+  text-decoration: none;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  margin: 0 0.5rem;
 }
 
 .topnav-text:hover {
   color: black;
 }
 
-.footer-text:hover {
+.footer_link:hover {
   color: rgb(1, 51, 1);
 }
 

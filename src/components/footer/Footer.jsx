@@ -3,12 +3,14 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>
-        <a href="mailto:ahd.jacobson@gmail.com" className="footer-text">
+      <span className="footer-text">
+        <p>Website by Alexander Jacobson</p>{" "}
+      </span>
+      <span>
+        <a href="mailto:ahd.jacobson@gmail.com" className="footer_link">
           Email: ahd.jacobson@gmail.com
-        </a>{" "}
-        <br></br>
-      </p>
+        </a>
+      </span>
     </div>
   );
 };
