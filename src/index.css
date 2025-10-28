@@ -63,8 +63,8 @@ body {
   background-color: rgb(216, 228, 216);
   overflow: hidden;
   z-index: 1000;
-  text-align: center;
   padding: 0;
+  text-align: left;
 }
 
 .topnav-text {
@@ -84,17 +84,12 @@ body {
 
 .footer-text {
   display: inline-block;
-  font-size: large;
+  font-size: medium;
   font-family: "Tahoma";
-  color: white;
-  font-weight: bold;
+  color: darkgreen;
+  font-weight: none;
   text-decoration: none;
-  background-color: rgb(156, 161, 156);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-bottom: 0.3rem;
-  padding-top: 0.3rem;
-  margin: 0 0.5rem;
+  margin-left: 8%;
 }
 
 .topnav-text:hover {
@@ -102,7 +97,7 @@ body {
 }
 
 .footer-text:hover {
-  color: black;
+  color: rgb(1, 51, 1);
 }
 
 .link-image {
