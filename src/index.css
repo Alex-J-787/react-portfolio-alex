@@ -71,10 +71,9 @@ body {
   display: inline-block;
   font-size: x-large;
   font-family: "Tahoma";
-  color: white;
+  color: darkblue;
   font-weight: bold;
   text-decoration: none;
-  background-color: rgb(156, 161, 156);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-bottom: 0.3rem;
