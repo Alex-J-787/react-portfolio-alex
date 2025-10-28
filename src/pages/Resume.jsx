@@ -2,7 +2,7 @@ import React from "react";
 import Topnav from "../components/topnav/Topnav";
 import ResumePageTitle from "../components/resume/title/ResumePageTitle";
 import Education from "../components/resume/education/Education";
-import Projects from "../components/resume/projects/Projects";
+import ResumeProjects from "../components/resume/resumeProjects/ResumeProjects";
 import Experience from "../components/resume/experience/Experience";
 import Skills from "../components/resume/skills/Skills";
 import Footer from "../components/footer/Footer";
@@ -24,7 +24,7 @@ const Resume = () => {
         <Divider />
         <Education />
         <Divider />
-        <Projects />
+        <ResumeProjects />
         <Divider />
         <Experience />
         <Divider />
