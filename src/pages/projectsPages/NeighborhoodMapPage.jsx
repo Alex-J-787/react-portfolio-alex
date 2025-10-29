@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 import NeighborhoodMap from "../../components/projects/neighborhoodMap/NeighborhoodMap";
 import ProjectsPageTitle from "../../components/projects/title/ProjectsPageTitle";
 
-const NeighborhoodMap = () => {
+const NeighborhoodMapPage = () => {
   return (
     <div>
       <div className="topnav">
@@ -29,4 +29,4 @@ const NeighborhoodMap = () => {
   );
 };
 
-export default NeighborhoodMap;
+export default NeighborhoodMapPage;
